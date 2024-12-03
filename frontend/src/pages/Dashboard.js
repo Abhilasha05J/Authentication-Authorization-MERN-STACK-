@@ -20,7 +20,7 @@ function Dashboard() {
   }
   const fetchDetails = async () =>{
     try{
-const url = "http://localhost:8080/dashboard";
+const url = "https://authentication-authorization-mern-stack-api.vercel.app/dashboard";
 const headers = {
     headers:{
         'Authorization': localStorage.getItem('token')
